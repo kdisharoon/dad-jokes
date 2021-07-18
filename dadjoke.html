@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Very Basic Dad Joke API</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dadjoke.js"></script>  
+</head>
+<body>
+
+    <div class="container">
+		<div class="row">
+            <div class="col-xs-2 text-center">
+                <button id="dadJokeButton" class="btn btn-warning">
+                    Random Dad Joke
+                </button>
+            </div>
+            <div class="col-xs-6">
+			    <h4 id="message" class="text-center"></h4>
+            </div>
+            <div class="col-xs-4 dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
+                    How Hilarious Are These Jokes???
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Pretty Funny</a></li>
+                  <li><a href="#">Ridiculously Funny</a></li>
+                  <li><a href="#">GASPING FOR AIR FUNNY</a></li>
+                </ul>
+              </div>
+		</div>
+    </div>
+
+</body>
+</html>
